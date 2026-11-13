@@ -1,0 +1,11 @@
+# GPU temp/load/power/VRAM (nvidia-smi or LibreHardwareMonitor), CPU, RAM,
+# network and ping with jitter and loss; gauges, sparklines and game sessions.
+id = "gamer-stats"
+name = "Gamer Stats"
+icon = "game-controller"
+size = "wide"
+run = ["python", "main.py"]
+page_size = [640, 440]
+description = "GPU temperature, load, power, clock, fan and VRAM (nvidia-smi, or LibreHardwareMonitor while it runs), CPU temperature and load, RAM, network speed and ping with jitter and packet loss. Gauges and sparklines; fullscreen games are timed with their peak temperatures and ping."
+author = "Fenn"
+version = "2.0.0"
